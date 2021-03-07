@@ -1,0 +1,17 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX hs: <http://www.semanticweb.org/petros/ontologies/2020/0/untitled-ontology-9#>
+PREFIX foaf: <http://xmlns.com/foaf/spec/>
+
+SELECT ?minion ?attack ?ancestry ?hero ?keyword ?text
+
+WHERE{ ?minion rdf:type hs:Minion.
+?minion hs:attack ?attack;
+hs:of_hero ?hero.
+FILTER (?attack > 5)
+OPTIONAL {?minion hs:has_ancestry ?ancestry}
+OPTIONAL {?minion hs:keyword ?keyword}
+OPTIONAL {?minion hs:actual_text ?text}
+}
+ORDER BY ?attack

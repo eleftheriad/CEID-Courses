@@ -1,0 +1,16 @@
+Saving all output to "/usr/hdp/2.6.3.0-235/phoenix/bin/../../../../../home/user03/USER03Q4.csv". Enter "record" with no arguments to stop it.
+'STATE','BUSINESS_COUNT'
+'AZ','40'
+'BW','1'
+'CO','1'
+'EDH','4'
+'HLD','2'
+'IL','5'
+'NC','26'
+'NV','35'
+'OH','40'
+'ON','59'
+'PA','31'
+'QC','12'
+'WI','8'
+13 rows selected (10.803 seconds)

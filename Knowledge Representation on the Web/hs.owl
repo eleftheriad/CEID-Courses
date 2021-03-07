@@ -1,0 +1,2041 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/petros/ontologies/2020/0/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/petros/ontologies/2020/0/untitled-ontology-9">
+    <Prefix name="" IRI="http://www.semanticweb.org/petros/ontologies/2020/0/untitled-ontology-9"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warrior_Deck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#warrior1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Petros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Player"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neutral"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#stats"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#spell_text"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#keyword"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Priest1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pirate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#costs_more_than"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hunter1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Damage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mech"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#actual_text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warrior_Card"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_ancestry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_by"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#attack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Animal_Companion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flash_Heal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Card"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ancestry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Opponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priest_Deck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#of_hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priest_Card"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hunter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Whirlwind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warrior_Spell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#deck_name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hero_Card"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spell_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priest_Spell"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has-less_attack_than"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bash"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Armorsmith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#King_Krush"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beast"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#health"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neutral_Minion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_spell_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warrior_Minion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hunter_Card"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Test_Player"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Priest"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#costs_less_than"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hunter_Spell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#testcard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lightbomb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priest_Minion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minion_text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hero_Minion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_same_hp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brawl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Destroy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Warrior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_bigger_than"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#costs_same_as"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr._Boom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hunter_Minion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hunter_Deck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neutral_Card"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Ancestry"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Mech"/>
+            <NamedIndividual IRI="#Pirate"/>
+            <NamedIndividual IRI="#Beast"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hero"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Hunter"/>
+            <NamedIndividual IRI="#Warrior"/>
+            <NamedIndividual IRI="#Neutral"/>
+            <NamedIndividual IRI="#Priest"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hero_Minion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Hero_Card"/>
+            <Class IRI="#Minion"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Neutral_Card"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Card"/>
+            <ObjectComplementOf>
+                <Class IRI="#Hero_Card"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Spell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Card"/>
+            <ObjectComplementOf>
+                <Class IRI="#Minion"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Spell_Type"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Destroy"/>
+            <NamedIndividual IRI="#Damage"/>
+            <NamedIndividual IRI="#Heal"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Card"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#cost"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deck"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#used_by"/>
+            <Class IRI="#Player"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deck"/>
+        <ObjectExactCardinality cardinality="5">
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#Card"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hero_Card"/>
+        <Class IRI="#Card"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hunter_Card"/>
+        <Class IRI="#Hero_Card"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hunter_Card"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#of_hero"/>
+            <NamedIndividual IRI="#Hunter"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hunter_Deck"/>
+        <Class IRI="#Deck"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hunter_Deck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#Hunter_Card"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hunter_Minion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Hunter_Card"/>
+            <Class IRI="#Minion"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hunter_Spell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Hunter_Card"/>
+            <Class IRI="#Spell"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minion"/>
+        <Class IRI="#Card"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#attack"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#health"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neutral_Card"/>
+        <Class IRI="#Card"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neutral_Card"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#of_hero"/>
+            <NamedIndividual IRI="#Neutral"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neutral_Minion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Minion"/>
+            <Class IRI="#Neutral_Card"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Player"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#uses"/>
+            <Class IRI="#Deck"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priest_Card"/>
+        <Class IRI="#Hero_Card"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priest_Card"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#of_hero"/>
+            <NamedIndividual IRI="#Priest"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priest_Deck"/>
+        <Class IRI="#Deck"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priest_Deck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#Priest_Card"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priest_Minion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Minion"/>
+            <Class IRI="#Priest_Card"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priest_Spell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Priest_Card"/>
+            <Class IRI="#Spell"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spell"/>
+        <Class IRI="#Card"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warrior_Card"/>
+        <Class IRI="#Hero_Card"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warrior_Card"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#of_hero"/>
+            <NamedIndividual IRI="#Warrior"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warrior_Deck"/>
+        <Class IRI="#Deck"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warrior_Deck"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#Warrior_Card"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warrior_Minion"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Minion"/>
+            <Class IRI="#Warrior_Card"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warrior_Spell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Spell"/>
+            <Class IRI="#Warrior_Card"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Ancestry"/>
+        <Class IRI="#Card"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Card"/>
+        <Class IRI="#Deck"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Card"/>
+        <Class IRI="#Hero"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Card"/>
+        <Class IRI="#Player"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Card"/>
+        <Class IRI="#Spell_Type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deck"/>
+        <Class IRI="#Player"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hero_Card"/>
+        <Class IRI="#Neutral_Card"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hunter_Card"/>
+        <Class IRI="#Priest_Card"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hunter_Card"/>
+        <Class IRI="#Warrior_Card"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hunter_Deck"/>
+        <Class IRI="#Priest_Deck"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hunter_Deck"/>
+        <Class IRI="#Warrior_Deck"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hunter_Minion"/>
+        <Class IRI="#Hunter_Spell"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hunter_Spell"/>
+        <Class IRI="#Priest_Spell"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hunter_Spell"/>
+        <Class IRI="#Warrior_Spell"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Minion"/>
+        <Class IRI="#Spell"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Neutral_Card"/>
+        <Class IRI="#Spell"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Priest_Card"/>
+        <Class IRI="#Warrior_Card"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Priest_Deck"/>
+        <Class IRI="#Warrior_Deck"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Priest_Minion"/>
+        <Class IRI="#Priest_Spell"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Priest_Spell"/>
+        <Class IRI="#Warrior_Spell"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Warrior_Minion"/>
+        <Class IRI="#Warrior_Spell"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Hunter_Spell"/>
+        <NamedIndividual IRI="#Animal_Companion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hunter_Spell"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Warrior_Minion"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Warrior_Spell"/>
+        <NamedIndividual IRI="#Bash"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ancestry"/>
+        <NamedIndividual IRI="#Beast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Warrior_Spell"/>
+        <NamedIndividual IRI="#Brawl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Priest_Minion"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neutral_Minion"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Priest_Spell"/>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Warrior_Minion"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spell_Type"/>
+        <NamedIndividual IRI="#Damage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spell_Type"/>
+        <NamedIndividual IRI="#Destroy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neutral_Minion"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Priest_Spell"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spell_Type"/>
+        <NamedIndividual IRI="#Heal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero"/>
+        <NamedIndividual IRI="#Hunter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neutral_Minion"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hunter_Minion"/>
+        <NamedIndividual IRI="#King_Krush"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Priest_Spell"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ancestry"/>
+        <NamedIndividual IRI="#Mech"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero"/>
+        <NamedIndividual IRI="#Neutral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Priest_Minion"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Opponent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Petros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ancestry"/>
+        <NamedIndividual IRI="#Pirate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero"/>
+        <NamedIndividual IRI="#Priest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Priest_Deck"/>
+        <NamedIndividual IRI="#Priest1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hunter_Minion"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neutral_Minion"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Test_Player"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero"/>
+        <NamedIndividual IRI="#Warrior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Warrior_Spell"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neutral_Minion"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hunter_Deck"/>
+        <NamedIndividual IRI="#hunter1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero_Card"/>
+        <NamedIndividual IRI="#testcard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Warrior_Deck"/>
+        <NamedIndividual IRI="#warrior1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hunter_Spell"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Opponent"/>
+        <NamedIndividual IRI="#Petros"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Animal_Companion"/>
+        <NamedIndividual IRI="#Brawl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Animal_Companion"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Animal_Companion"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Animal_Companion"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_spell_type"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+        <NamedIndividual IRI="#Damage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+        <NamedIndividual IRI="#Brawl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Bash"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Bash"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_spell_type"/>
+        <NamedIndividual IRI="#Bash"/>
+        <NamedIndividual IRI="#Damage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Brawl"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Brawl"/>
+        <NamedIndividual IRI="#Bash"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_spell_type"/>
+        <NamedIndividual IRI="#Brawl"/>
+        <NamedIndividual IRI="#Destroy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_hp"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_spell_type"/>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+        <NamedIndividual IRI="#Heal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+        <NamedIndividual IRI="#Bash"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+        <NamedIndividual IRI="#King_Krush"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_hp"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_spell_type"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+        <NamedIndividual IRI="#Heal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+        <NamedIndividual IRI="#Animal_Companion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#King_Krush"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <NamedIndividual IRI="#King_Krush"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_ancestry"/>
+        <NamedIndividual IRI="#King_Krush"/>
+        <NamedIndividual IRI="#Beast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+        <NamedIndividual IRI="#King_Krush"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_spell_type"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+        <NamedIndividual IRI="#Damage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Priest1"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Priest1"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Priest1"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Priest1"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Priest1"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#used_by"/>
+        <NamedIndividual IRI="#Priest1"/>
+        <NamedIndividual IRI="#Petros"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_ancestry"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <NamedIndividual IRI="#Beast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_hp"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_hp"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Test_Player"/>
+        <NamedIndividual IRI="#Priest1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_spell_type"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+        <NamedIndividual IRI="#Damage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_hp"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#hunter1"/>
+        <NamedIndividual IRI="#Animal_Companion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#hunter1"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#hunter1"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#hunter1"/>
+        <NamedIndividual IRI="#King_Krush"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#hunter1"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#used_by"/>
+        <NamedIndividual IRI="#hunter1"/>
+        <NamedIndividual IRI="#Opponent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#of_hero"/>
+        <NamedIndividual IRI="#testcard"/>
+        <NamedIndividual IRI="#Priest"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#warrior1"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#warrior1"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#warrior1"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#warrior1"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#warrior1"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Animal_Companion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Animal_Companion"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Animal Companion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spell_text"/>
+        <NamedIndividual IRI="#Animal_Companion"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Summon a random Beast Companion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Arcane Shot</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spell_text"/>
+        <NamedIndividual IRI="#Arcane_Shot"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Deal 2 damage.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actual_text"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Whenever a friendly minion takes damage, gain 1 Armor.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Armorsmith"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Armorsmith</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Bash"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Bash"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bash</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spell_text"/>
+        <NamedIndividual IRI="#Bash"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Deal 3 damage. Gain 3 Armor.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Brawl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Brawl"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Brawl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spell_text"/>
+        <NamedIndividual IRI="#Brawl"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Destroy all minions except one. (chosen randomly)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actual_text"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Take control of an enemy minion that has 2 or less Attack.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#keyword"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Battlecry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Cabal_Shadow_Priest"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cabal Shadow Priest</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Chillwind_Yeti"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Chillwind Yeti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Circle of Healing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spell_text"/>
+        <NamedIndividual IRI="#Circle_of_Healing"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Restore 4 Health to ALL minions.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actual_text"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Deal 1 damage to a minion and give it +2 Attack.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#keyword"/>
+        <NamedIndividual IRI="#Cruel_Taskmaster"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Battlecry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actual_text"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Summon two 1/1 Boom Bots. WARNING: Bots may explode.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#keyword"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Battlecry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Dr._Boom"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dr. Boom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Flash Heal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spell_text"/>
+        <NamedIndividual IRI="#Flash_Heal"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Restore 5 Health.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actual_text"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Deal 4 damage to HIMSELF.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#keyword"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Battlecry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Injured_Blademaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Injured Blademaster</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#King_Krush"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#King_Krush"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#King_Krush"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#keyword"/>
+        <NamedIndividual IRI="#King_Krush"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Charge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Lightbomb</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spell_text"/>
+        <NamedIndividual IRI="#Lightbomb"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Deal damage to each minion equal to its Attack.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actual_text"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Whenever a minion is healed, draw a card.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Northshire_Cleric"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Northshire Cleric</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actual_text"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Summon two 2/2 Hyenas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#keyword"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Deathrattle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Savannah_Highmane"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Savannah Highmane</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actual_text"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Take control of a random enemy minion.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#keyword"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Deathrattle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Sylvanas_Windrunner"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Sylvanas Windrunner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Whirlwind</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spell_text"/>
+        <NamedIndividual IRI="#Whirlwind"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Deal 1 damage to ALL minions.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actual_text"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">After you cast a spell, deal 1 damage to ALL minions.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#attack"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#health"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Wild_Pyromancer"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Wild Pyromancer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deck_name"/>
+        <NamedIndividual IRI="#hunter1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">test deck</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#testcard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Hunter&apos;s Mark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spell_text"/>
+        <NamedIndividual IRI="#Hunter&apos;s_Mark"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Change a minion&apos;s Health to 1.</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_bigger_than"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#uses"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <ObjectProperty IRI="#costs_more_than"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has-less_attack_than"/>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#used_by"/>
+        <ObjectProperty IRI="#uses"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#of_hero"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#used_by"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#uses"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#used_by"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#uses"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#costs_same_as"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#has_same_hp"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#costs_less_than"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#costs_more_than"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#has-less_attack_than"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#is_bigger_than"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has-less_attack_than"/>
+        <Class IRI="#Minion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <Class IRI="#Minion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_ancestry"/>
+        <Class IRI="#Minion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_same_hp"/>
+        <Class IRI="#Minion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_spell_type"/>
+        <Class IRI="#Spell"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includes"/>
+        <Class IRI="#Deck"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_bigger_than"/>
+        <Class IRI="#Minion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#of_hero"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_by"/>
+        <Class IRI="#Deck"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#costs_less_than"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#costs_more_than"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#costs_same_as"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has-less_attack_than"/>
+        <Class IRI="#Minion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has-more_attack_than"/>
+        <Class IRI="#Minion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_ancestry"/>
+        <Class IRI="#Ancestry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_same_hp"/>
+        <Class IRI="#Minion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_spell_type"/>
+        <Class IRI="#Spell_Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includes"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_bigger_than"/>
+        <Class IRI="#Minion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#of_hero"/>
+        <Class IRI="#Hero"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_by"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Deck"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#actual_text"/>
+        <DataProperty IRI="#minion_text"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#attack"/>
+        <DataProperty IRI="#stats"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cost"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#deck_name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#health"/>
+        <DataProperty IRI="#stats"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#keyword"/>
+        <DataProperty IRI="#minion_text"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#minion_text"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#spell_text"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#stats"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#actual_text"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#attack"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#cost"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#deck_name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#health"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#spell_text"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#actual_text"/>
+        <Class IRI="#Minion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#attack"/>
+        <Class IRI="#Minion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cost"/>
+        <Class IRI="#Card"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#deck_name"/>
+        <Class IRI="#Deck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#health"/>
+        <Class IRI="#Minion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#keyword"/>
+        <Class IRI="#Minion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Card"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#spell_text"/>
+        <Class IRI="#Spell"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#actual_text"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#attack"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cost"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#deck_name"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#health"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#keyword"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Battlecry</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Charge</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Deathrattle</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#spell_text"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Card"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#costs_same_as"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#costs_less_than"/>
+                <Variable IRI="urn:swrl#y"/>
+                <Variable IRI="urn:swrl#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#costs_less_than"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#z"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Card"/>
+                <Variable IRI="urn:swrl#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#costs_same_as"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#y"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#costs_more_than"/>
+                <Variable IRI="urn:swrl#y"/>
+                <Variable IRI="urn:swrl#z"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#costs_more_than"/>
+                <Variable IRI="urn:swrl#x"/>
+                <Variable IRI="urn:swrl#z"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Minion"/>
+                <Variable IRI="urn:swrl#a"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_same_hp"/>
+                <Variable IRI="urn:swrl#a"/>
+                <Variable IRI="urn:swrl#b"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has-more_attack_than"/>
+                <Variable IRI="urn:swrl#a"/>
+                <Variable IRI="urn:swrl#b"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_bigger_than"/>
+                <Variable IRI="urn:swrl#a"/>
+                <Variable IRI="urn:swrl#b"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

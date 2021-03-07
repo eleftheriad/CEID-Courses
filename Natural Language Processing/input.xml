@@ -1,0 +1,20 @@
+<inverted_index>
+    <lemma name="fakeword">
+		<document id="5" weight="2040"/>
+		<document id="6" weight="2040"/>
+		<document id="7" weight="2040"/>
+		<document id="8" weight="2040"/>
+	</lemma>
+	<lemma name="Stelios">
+		<document id="5" weight="1000" />
+	</lemma>
+	<lemma name="petros">
+		<document id="5" weight="2040" />
+	</lemma>
+	<lemma name="fakeee">
+		<document id="7" weight="1000" />
+	</lemma>
+	<lemma name="wrdd">
+		<document id="5" weight="2040" />
+	</lemma>
+</inverted_index>
