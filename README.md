@@ -1,2 +1,2 @@
 # CEID_Projects
-This repository contains some of my projects during my time as an undergaduate student in CEID.
+This repository contains some of my projects during my time as an undergraduate student in CEID.
